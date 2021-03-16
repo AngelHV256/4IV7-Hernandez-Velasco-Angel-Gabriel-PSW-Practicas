@@ -1,0 +1,120 @@
+body{
+    background-image: url(https://i.pinimg.com/236x/e8/48/18/e84818d005563fa3cee791b1d417fd41.jpg);
+    background-repeat:repeat-y;
+    background-size: 100%;
+}
+
+header{
+    width:100%;
+    overflow:hidden;
+    background-color:rgba(1, 97, 76, 0.116);
+    margin-bottom:20px;
+    box-shadow: 5px 5px 25px rgb(54, 54, 54) inset;
+}
+
+/*Centrara Todo el contenido del div ;)*/
+.wrapper{
+    width:40%;
+    max-width:1000px;
+    margin:auto;
+}
+
+/* Continuamos con el div que asignamos para el logo o Titulo principal en este caso XD */
+header .logotipo{
+    color:#cfc9c8;
+    font-size:75px;
+    line-height:200px;
+    float:left;
+}
+
+/* Con la propiedad "float" aplicada al nav, le asignaremos la posicion a la derecha dentro del div "Wrapper"
+   y con la propiedad "line-X" se le asigna la posicion en px de altura siguiendo una linea como eje X y height como eje Y */
+header nav{
+    float:right;
+    line-height:200px;
+  }
+
+ /*Le damos formato fachero a los enlaces (El texto pues jajaja) que contiene nuestro nav ;)  */
+header nav a{
+    display:inline-block; /*NPI*/
+    color:#CFC9C8;
+    text-decoration:none;
+    padding:10px 20px;
+    line-height:normal;
+    font-size:20px;
+    font-weight:bold;
+    -webkit-transition:all 100ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+
+/* Pequeña transicion que sera reflejada cuando se pase el mouse sobre los enlaces  */
+header nav a:hover{
+    background-color:#058861;
+    border-radius:50px;
+}
+
+/* Comienzan los estilos para el "Main" en la seccion "Datos personales"*/
+.datos-personales{
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.personal-icon{
+    width: 200px;
+    height: 190px;
+    position: relative;
+    bottom: -35px;
+}
+
+.datos{
+    width: 500px;
+    height: 200px;
+}
+
+ul ,li{
+    color: #cfc9c8;
+    font-size: 25px;
+    font-weight:bold;
+    text-align: justify;
+}
+
+/* Seccion estudios */
+.estudios{
+    display: flex;
+    margin-bottom: 150px;
+}
+.estudio-icon{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    top: 100px;
+}
+
+/* seccion de hobbies */
+.hob{
+    display: flex;
+    margin-bottom: 175px;
+}
+
+.hob-icon{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    top: 100px;
+}
+
+/* Seccion de habilidades */
+.habi{
+    display: flex;
+}
+
+.habi-icon{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    top: 35px;
+}
