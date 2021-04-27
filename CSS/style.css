@@ -1,0 +1,61 @@
+/* Mostly Fluid */
+body{
+    background-color: #FDFCDC;
+}
+.container {
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+    }
+    
+    .columna1, 
+    .columna2, 
+    .columna3, 
+    .columna4, 
+    .columna5 {
+      width: 100%;
+    }
+    
+    @media (min-width: 600px) {
+      .columna2,
+      .columna3, 
+      .columna4, 
+      .columna5 {
+        width: 50%;
+      }
+    }
+    
+    @media (min-width: 800px) {
+      .columna1 { width: 50%; }
+      .columna2 { width: 50%; }
+      .columna3, 
+      .columna4, 
+      .columna5 {
+        width: 33.3%;
+      }
+    
+      .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+/* Le damos color al fondo de cada seccion de nuestro sitio */
+
+.nav1{
+    background-color: #00AFB9;
+}
+
+.columna1{
+color: aquamarine;
+}
+
+.columna2{
+color: aquamarine;
+}
+
+.columna3{
+color: aquamarine;
+}
